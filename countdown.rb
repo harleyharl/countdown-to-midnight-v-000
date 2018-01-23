@@ -14,9 +14,8 @@ def countdown_with_sleep(time_on_clock)
 
  while time_on_clock != 0
     puts "#{time_on_clock} SECOND(S)!"
-    # time_on_clock
+    sleep 2
     time_on_clock -= 1
   end
-    sleep 2
     "HAPPY NEW YEAR!"
 end
