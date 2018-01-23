@@ -3,7 +3,7 @@
 def countdown(time_on_clock)
 
   while time_on_clock > 0
-    puts "#{time_on_clock} to go"
+    puts "#{time_on_clock} SECOND(S)"
     # time_on_clock
     time_on_clock -= 1
   end
