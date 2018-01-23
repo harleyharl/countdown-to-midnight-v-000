@@ -6,6 +6,7 @@ def countdown(time_on_clock)
     puts "#{time_on_clock} SECOND(S)!"
     # time_on_clock
     time_on_clock -= 1
+    sleep 1
   end
     "HAPPY NEW YEAR!"
 end
