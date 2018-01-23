@@ -17,6 +17,6 @@ def countdown_with_sleep(time_on_clock)
     # time_on_clock
     time_on_clock -= 1
   end
-    sleep 1
+    sleep 2
     "HAPPY NEW YEAR!"
 end
