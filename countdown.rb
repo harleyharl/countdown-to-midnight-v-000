@@ -3,7 +3,7 @@
 def countdown(time_on_clock)
 
   while time_on_clock > 0
-    time_on_clock
+    puts "#{time_on_clock} to go"
     # time_on_clock
     time_on_clock += 1
   end
